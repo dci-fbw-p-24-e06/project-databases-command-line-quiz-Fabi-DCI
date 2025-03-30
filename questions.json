@@ -1,0 +1,461 @@
+[
+    {
+        "topic": "Math",
+        "module": "Algebra",
+        "submodule": "Quadratic Equations",
+        "difficulty_level": 1,
+        "question": "What is the sum of the roots in the equation x² - 5x + 6 = 0?",
+        "correct_answer": "5",
+        "wrong_answers": ["6", "2", "1"]
+    },
+    {
+        "topic": "Math",
+        "module": "Geometry",
+        "submodule": "Triangles",
+        "difficulty_level": 1,
+        "question": "What is the sum of the interior angles of a triangle?",
+        "correct_answer": "180 degrees",
+        "wrong_answers": ["90 degrees", "270 degrees", "360 degrees"]
+    },
+    {
+        "topic": "Math",
+        "module": "Algebra",
+        "submodule": "Linear Equations",
+        "difficulty_level": 2,
+        "question": "Solve for x: 2x + 5 = 11",
+        "correct_answer": "x = 3",
+        "wrong_answers": ["x = 2", "x = 6", "x = 8"]
+    },
+    {
+        "topic": "Math",
+        "module": "Probability",
+        "submodule": "Basic Probability",
+        "difficulty_level": 1,
+        "question": "What is the probability of getting heads in a fair coin toss?",
+        "correct_answer": "1/2",
+        "wrong_answers": ["1/3", "1/4", "2/3"]
+    },
+    {
+        "topic": "Math",
+        "module": "Trigonometry",
+        "submodule": "Basic Trigonometry",
+        "difficulty_level": 2,
+        "question": "What is sin(30°)?",
+        "correct_answer": "1/2",
+        "wrong_answers": ["√3/2", "1", "0"]
+    },
+    {
+        "topic": "Math",
+        "module": "Calculus",
+        "submodule": "Derivatives",
+        "difficulty_level": 3,
+        "question": "What is the derivative of x²?",
+        "correct_answer": "2x",
+        "wrong_answers": ["x", "x²", "1"]
+    },
+    {
+        "topic": "Math",
+        "module": "Statistics",
+        "submodule": "Mean and Median",
+        "difficulty_level": 1,
+        "question": "What is the median of the numbers 2, 3, 5, 7, and 9?",
+        "correct_answer": "5",
+        "wrong_answers": ["3", "7", "6"]
+    },
+    {
+        "topic": "Math",
+        "module": "Number Theory",
+        "submodule": "Prime Numbers",
+        "difficulty_level": 2,
+        "question": "What is the smallest prime number?",
+        "correct_answer": "2",
+        "wrong_answers": ["1", "3", "5"]
+    },
+    {
+        "topic": "Math",
+        "module": "Logarithms",
+        "submodule": "Basic Logarithms",
+        "difficulty_level": 3,
+        "question": "What is log₂(8)?",
+        "correct_answer": "3",
+        "wrong_answers": ["2", "4", "8"]
+    },
+    {
+        "topic": "Math",
+        "module": "Set Theory",
+        "submodule": "Basic Sets",
+        "difficulty_level": 1,
+        "question": "What is the intersection of sets {1,2,3} and {2,3,4}?",
+        "correct_answer": "{2,3}",
+        "wrong_answers": ["{1,4}", "{1,2,3,4}", "{2}"]
+    },
+    {
+        "topic": "",
+        "module": "",
+        "submodule": "",
+        "difficulty_level": 1,
+        "question": "",
+        "correct_answer": "",
+        "wrong_answers": ["","",""]
+    },
+    {
+            "topic": "Python",
+            "module": "Syntax",
+            "submodule": "Variables",
+            "difficulty_level": 1,
+            "question": "Which keyword is used to define a variable in Python?",
+            "correct_answer": "No keyword is needed",
+            "wrong_answers": ["var", "let", "define"]
+        },
+        {
+            "topic": "Python",
+            "module": "Data Types",
+            "submodule": "Strings",
+            "difficulty_level": 1,
+            "question": "Which of the following is a valid way to declare a string in Python?",
+            "correct_answer": "'Hello World'",
+            "wrong_answers": ["Hello World", "str(Hello World)", "string('Hello World')"]
+        },
+        {
+            "topic": "Python",
+            "module": "Loops",
+            "submodule": "For Loops",
+            "difficulty_level": 2,
+            "question": "Which keyword is used to create a loop that iterates over a sequence?",
+            "correct_answer": "for",
+            "wrong_answers": ["while", "loop", "repeat"]
+        },
+        {
+            "topic": "Python",
+            "module": "Functions",
+            "submodule": "Defining Functions",
+            "difficulty_level": 2,
+            "question": "What is the correct way to define a function in Python?",
+            "correct_answer": "def my_function():",
+            "wrong_answers": ["function my_function():", "define my_function():", "func my_function():"]
+        },
+        {
+            "topic": "Python",
+            "module": "Conditionals",
+            "submodule": "If Statements",
+            "difficulty_level": 1,
+            "question": "Which keyword is used for an if statement in Python?",
+            "correct_answer": "if",
+            "wrong_answers": ["when", "case", "switch"]
+        },
+        {
+            "topic": "Python",
+            "module": "Lists",
+            "submodule": "List Methods",
+            "difficulty_level": 2,
+            "question": "Which method is used to add an item to the end of a list?",
+            "correct_answer": "append()",
+            "wrong_answers": ["add()", "push()", "insert()"]
+        },
+        {
+            "topic": "Python",
+            "module": "Dictionaries",
+            "submodule": "Dictionary Methods",
+            "difficulty_level": 2,
+            "question": "Which method is used to get the value associated with a key in a dictionary?",
+            "correct_answer": "get()",
+            "wrong_answers": ["find()", "lookup()", "retrieve()"]
+        },
+        {
+            "topic": "Python",
+            "module": "Loops",
+            "submodule": "While Loops",
+            "difficulty_level": 2,
+            "question": "What will happen if a while loop’s condition never becomes False?",
+            "correct_answer": "It creates an infinite loop",
+            "wrong_answers": ["It runs once and stops", "It causes an error", "It skips the loop"]
+        },
+        {
+            "topic": "Python",
+            "module": "Operators",
+            "submodule": "Comparison Operators",
+            "difficulty_level": 1,
+            "question": "Which operator is used to check if two values are equal?",
+            "correct_answer": "==",
+            "wrong_answers": ["=", "===", "!="]
+        },
+        {
+            "topic": "Python",
+            "module": "File Handling",
+            "submodule": "Reading Files",
+            "difficulty_level": 3,
+            "question": "Which mode is used to open a file for reading in Python?",
+            "correct_answer": "'r'",
+            "wrong_answers": ["'w'", "'rw'", "'read'"]
+        },
+        {
+                "topic": "History",
+                "module": "Ancient History",
+                "submodule": "Egypt",
+                "difficulty_level": 1,
+                "question": "Which structure is one of the Seven Wonders of the Ancient World?",
+                "correct_answer": "The Great Pyramid of Giza",
+                "wrong_answers": ["The Colosseum", "Machu Picchu", "Stonehenge"]
+            },
+            {
+                "topic": "History",
+                "module": "World War II",
+                "submodule": "Major Events",
+                "difficulty_level": 2,
+                "question": "What year did World War II end?",
+                "correct_answer": "1945",
+                "wrong_answers": ["1939", "1941", "1950"]
+            },
+            {
+                "topic": "History",
+                "module": "Medieval History",
+                "submodule": "Europe",
+                "difficulty_level": 3,
+                "question": "Which document, signed in 1215, limited the power of the English King?",
+                "correct_answer": "Magna Carta",
+                "wrong_answers": ["Bill of Rights", "Constitution", "Declaration of Independence"]
+            },
+            {
+                "topic": "History",
+                "module": "American History",
+                "submodule": "Independence",
+                "difficulty_level": 1,
+                "question": "Who was the first President of the United States?",
+                "correct_answer": "George Washington",
+                "wrong_answers": ["Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+            },
+            {
+                "topic": "History",
+                "module": "French Revolution",
+                "submodule": "Key Figures",
+                "difficulty_level": 2,
+                "question": "Who was the king of France during the French Revolution?",
+                "correct_answer": "Louis XVI",
+                "wrong_answers": ["Napoleon Bonaparte", "Louis XIV", "Charles X"]
+            },
+            {
+                "topic": "History",
+                "module": "Cold War",
+                "submodule": "Major Conflicts",
+                "difficulty_level": 3,
+                "question": "What was the main ideological conflict of the Cold War?",
+                "correct_answer": "Communism vs Capitalism",
+                "wrong_answers": ["Fascism vs Democracy", "Imperialism vs Nationalism", "Socialism vs Liberalism"]
+            },
+            {
+                "topic": "History",
+                "module": "Renaissance",
+                "submodule": "Cultural Impact",
+                "difficulty_level": 1,
+                "question": "Which famous artist painted the Mona Lisa?",
+                "correct_answer": "Leonardo da Vinci",
+                "wrong_answers": ["Michelangelo", "Raphael", "Donatello"]
+            },
+            {
+                "topic": "History",
+                "module": "Industrial Revolution",
+                "submodule": "Inventions",
+                "difficulty_level": 2,
+                "question": "Which invention is often credited with starting the Industrial Revolution?",
+                "correct_answer": "The steam engine",
+                "wrong_answers": ["The telephone", "The printing press", "The light bulb"]
+            },
+            {
+                "topic": "History",
+                "module": "Exploration",
+                "submodule": "Great Explorers",
+                "difficulty_level": 1,
+                "question": "Who is credited with discovering America in 1492?",
+                "correct_answer": "Christopher Columbus",
+                "wrong_answers": ["Ferdinand Magellan", "Marco Polo", "James Cook"]
+            },
+            {
+                "topic": "History",
+                "module": "World War I",
+                "submodule": "Causes",
+                "difficulty_level": 3,
+                "question": "What event is considered the spark that started World War I?",
+                "correct_answer": "The assassination of Archduke Franz Ferdinand",
+                "wrong_answers": ["The signing of the Treaty of Versailles", "Germany’s invasion of Poland", "The attack on Pearl Harbor"]
+            },
+            {
+              "topic": "Mechanical Engineering",
+              "module": "Technical Drawing",
+              "submodule": "Line Types",
+              "difficulty_level": 1,
+              "question": "Which line type is used to represent hidden edges in technical drawings?",
+              "correct_answer": "Dashed line",
+              "wrong_answers": ["Thin solid line", "Thick solid line", "Dotted line"]
+            },
+            {
+              "topic": "Electrical Engineering",
+              "module": "Ohm's Law",
+              "submodule": "Voltage Calculation",
+              "difficulty_level": 1,
+              "question": "According to Ohm's Law, how is the electrical voltage U calculated?",
+              "correct_answer": "U = I * R",
+              "wrong_answers": ["U = R / I", "U = I + R", "U = I / R"]
+            },
+            {
+              "topic": "Mechanical Engineering",
+              "module": "Gear Systems",
+              "submodule": "Parallel Axis Gears",
+              "difficulty_level": 2,
+              "question": "Which type of gear has teeth with the same angle and operates in parallel runs?",
+              "correct_answer": "Spur gear",
+              "wrong_answers": ["Helical gear", "Bevel gear", "Worm gear"]
+            },
+            {
+              "topic": "Thermodynamics",
+              "module": "First Law of Thermodynamics",
+              "submodule": "Energy Conservation",
+              "difficulty_level": 2,
+              "question": "According to the first law of thermodynamics, energy cannot be created or destroyed, only:",
+              "correct_answer": "Transferred or converted",
+              "wrong_answers": ["Converted into matter", "Measured independently of matter", "Permanently lost as entropy"]
+            },
+            {
+              "topic": "Control Systems",
+              "module": "Open vs. Closed Loop Systems",
+              "submodule": "Feedback Mechanisms",
+              "difficulty_level": 2,
+              "question": "What characterizes an open-loop control system compared to a closed-loop system?",
+              "correct_answer": "Open systems do not use feedback",
+              "wrong_answers": ["Open systems use feedback sensors", "Closed systems have no predefined control signal", "Closed systems operate without actuators"]
+            },
+            {
+              "topic": "Machine Learning",
+              "module": "Supervised Learning",
+              "submodule": "K-Nearest Neighbors (KNN)",
+              "difficulty_level": 1,
+              "question": "The K-Nearest Neighbors (KNN) algorithm classifies a new data point based on:",
+              "correct_answer": "The majority class of its k nearest neighbors.",
+              "wrong_answers": ["The average value of its neighbors’ features.", "The distance to the nearest centroid in clustering.", "Its position in a decision tree."]
+            },
+            {
+              "topic": "Machine Learning",
+              "module": "Classification vs Regression",
+              "submodule": "Supervised Learning Tasks",
+              "difficulty_level": 1,
+              "question": "What differentiates a classification task from a regression task in machine learning?",
+              "correct_answer": "Classification predicts categorical labels",
+              "wrong_answers": ["Classification predicts continuous numerical values", "Regression predicts categorical labels", "Regression requires labeled training data"]
+            },
+            {
+              "topic": "Machine Learning",
+              "module": "Overfitting & Underfitting",
+              "submodule": "Bias-Variance Tradeoff",
+              "difficulty_level": 3,
+              "question": "A model with high variance is likely to:",
+              "correct_answer": "Overfit the training data.",
+              "wrong_answers": ["Underfit the training data.", "Have equal performance on training and test datasets.", "Require regularization for underfitting."]
+            },
+            {
+              "topic": "Machine Learning",
+              "module": "Clustering Algorithms",
+              "submodule": "Centroid-Based Clustering",
+              "difficulty_level": 2,
+              "question": "Which algorithm is centroid-based and used for clustering?",
+              "correct_answer": "K-Means Clustering",
+              "wrong_answers": ["Hierarchical Clustering", "DBSCAN", "Principal Component Analysis"]
+            },
+            {
+              "topic": "Machine Learning",
+              "module": "Model Evaluation",
+              "submodule": "ROC Curve",
+              "difficulty_level": 3,
+              "question": "The ROC curve plots which two metrics?",
+              "correct_answer": "True Positive Rate (TPR) vs. False Positive Rate (FPR)",
+              "wrong_answers": ["Precision vs. Recall", "Accuracy vs. F1-score", "Specificity vs. Sensitivity"]
+            },
+            {
+                  "topic": "Medicine",
+                  "module": "Pharmacology",
+                  "submodule": "Antiviral Drugs",
+                  "difficulty_level": 1,
+                  "question": "Which antiviral drug is used against influenza?",
+                  "correct_answer": "Oseltamivir",
+                  "wrong_answers": ["Gentamicin", "Valaciclovir", "Letermovir"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Genetics & Oncology",
+                  "submodule": "Ovarian Cancer",
+                  "difficulty_level": 2,
+                  "question": "Which gene should be tested for mutations in all women with epithelial ovarian cancer?",
+                  "correct_answer": "BRCA1/2",
+                  "wrong_answers": ["EGFR", "KRAS", "TP53"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Pharmacology",
+                  "submodule": "Corticosteroid Therapy",
+                  "difficulty_level": 2,
+                  "question": "Which of the following isn't a usual side effect of corticosteroid therapy?",
+                  "correct_answer": "Hepatotoxicity",
+                  "wrong_answers": ["High Blood Pressure", "Unexpected weight gain", "Higher risk of Infections"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Pharmacology",
+                  "submodule": "Aromatase Inhibitors",
+                  "difficulty_level": 2,
+                  "question": "Which is a characteristic side effect of aromatase inhibitors?",
+                  "correct_answer": "Joint Pain",
+                  "wrong_answers": ["Anemia", "Thrombocytopenia", "Alopecia"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Respiratory System",
+                  "submodule": "Pleural Effusion",
+                  "difficulty_level": 3,
+                  "question": "Which of the following defines a chylothorax?",
+                  "correct_answer": "Pleural fluid triglyceride level > 110mg/dl",
+                  "wrong_answers": ["Pleural Protein / Serum Protein > 0.5", "Pleural LDH / Serum LDH < 0.6", "Pleural fluid cells < 10000/μl"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Infectious Diseases",
+                  "submodule": "Traveler's Diarrhea",
+                  "difficulty_level": 1,
+                  "question": "Which of the following is responsible for Traveler's diarrhea?",
+                  "correct_answer": "Enterotoxigenic Escherichia coli (ETEC)",
+                  "wrong_answers": ["Clostridium Difficile", "Staphylococcus Aureus", "Giardia Lamblia"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Electrolyte Imbalance",
+                  "submodule": "Hyponatremia",
+                  "difficulty_level": 2,
+                  "question": "Hypervolemic hyponatremia is observed in:",
+                  "correct_answer": "Congestive heart failure",
+                  "wrong_answers": ["Vomiting", "Burns", "Glucocorticoid deficiency"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Electrolyte Imbalance",
+                  "submodule": "Hypernatremia",
+                  "difficulty_level": 2,
+                  "question": "Hypernatremia is caused by:",
+                  "correct_answer": "Diabetes insipidus",
+                  "wrong_answers": ["Hypothyroidism", "Rhabdomyolysis", "Cirrhosis"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Emergency Medicine",
+                  "submodule": "Coma Causes",
+                  "difficulty_level": 3,
+                  "question": "A patient comes in the emergency room in a comatose state. Which cause should be first ruled out?",
+                  "correct_answer": "Hypoglycemia",
+                  "wrong_answers": ["Opioids overdose", "Diabetic ketoacidosis", "Bacterial meningitis"]
+                },
+                {
+                  "topic": "Medicine",
+                  "module": "Rheumatology & Infectious Diseases",
+                  "submodule": "Monoarthritis",
+                  "difficulty_level": 3,
+                  "question": "Which of the following is the most common monoarthritis cause in young adults?",
+                  "correct_answer": "Gonococcus",
+                  "wrong_answers": ["Staphylococcus", "Pseudomonada", "Behçet's disease"]
+                }
+              ]

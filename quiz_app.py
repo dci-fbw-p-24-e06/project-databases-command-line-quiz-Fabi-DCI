@@ -1,4 +1,6 @@
+import json
 import psycopg2
+import random
 
 def connect_db():
     """Connect to PostgreSQL"""
@@ -56,9 +58,39 @@ def main_menu():
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
+def load_quiz():
+    """Load the quiz json"""
+    with open("questions.json", "r") as file:
+        return json.load(file)
+
 def take_quiz():
-    """Placeholder"""
-    pass
+    """quiz function for choosing topics etc"""
+    questions = load_quiz()
+    topics = set(q["topic"] for q in questions)
+
+    print("\nAviable Topics: ")
+    for topic in topics:
+        print(f"- {topic}")
+
+    chosen_topic = input("\nEnter a Topic: ").strip().capitalize()
+
+    filtered_questions = [q for q in questions if q["topic"] == chosen_topic]
+    question = random.choice(filtered_questions)
+
+    print(f"\nQuestion: {question['question']}")
+    options = [question["correct_answer"]] + question["wrong_answers"]
+    random.shuffle(options)
+
+    for i, option in enumerate(options, 1):
+        print(f"{i}. {option}")
+
+    answer = input("\nYour answer (enter the number): ").strip()
+    
+    if options[int(answer) - 1] == question["correct_answer"]:
+        print("✅ Correct!\n")
+    else:
+        print(f"❌ Wrong! The correct answer is: {question['correct_answer']}\n")
+
 
 def add_question():
     """Placeholder"""
