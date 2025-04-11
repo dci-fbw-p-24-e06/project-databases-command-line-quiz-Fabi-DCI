@@ -13,3 +13,10 @@ CREATE TABLE IF NOT EXISTS questions (
     correct_answer TEXT,
     wrong_answers TEXT[]
 );
+
+CREATE TABLE IF NOT EXISTS users (
+    user_id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL
+);
+
