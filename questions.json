@@ -89,16 +89,7 @@
         "correct_answer": "{2,3}",
         "wrong_answers": ["{1,4}", "{1,2,3,4}", "{2}"]
     },
-    {
-        "topic": "",
-        "module": "",
-        "submodule": "",
-        "difficulty_level": 1,
-        "question": "",
-        "correct_answer": "",
-        "wrong_answers": ["","",""]
-    },
-    {
+      {
             "topic": "Python",
             "module": "Syntax",
             "submodule": "Variables",
