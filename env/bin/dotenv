@@ -1,0 +1,29 @@
+#!/home/dci-student/Projects/Database/project-databases-command-line-quiz-Fabi-DCI/env/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from dotenv.__main__ import cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
+
+
+#DB_NAME="quiz_app"
+#DB_USER="Fabi-DCI"
+#DB_PASSWORD="D12e7046!data"
+#DB_HOST="aws-0-eu-central-1.pooler.supabase.com"
+#DB_PORT="6543"
+
+
+DB_NAME="quiz_app"
+DB_USER="fabianth"
+DB_PASSWORD="300699"
+DB_HOST="localhost"
+DB_PORT="5432"
+
+
+
+
+
+
+
